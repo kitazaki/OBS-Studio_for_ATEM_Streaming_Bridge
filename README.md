@@ -10,6 +10,7 @@ There are some differences between OBS-Studio and ATEM Streaming Bridge at RTMP 
 
 ## OBS-Studio
 
+```test
 verbose] RTMP_ClientPacket, received: notify 387 bytes
 [verbose] (object begin)
 [verbose] Property: <Name:           no-name., STRING:    onMetaData>
@@ -37,9 +38,11 @@ verbose] RTMP_ClientPacket, received: notify 387 bytes
 [verbose] Property: <Name:            encoder, STRING:    obs-output module (libobs version 26.1.0)>
 [verbose] (object end)
 [verbose] (object end)
+```
 
 ## ATEM Streaming Bridge
 
+```text
 [verbose] RTMP_ClientPacket, received: notify 371 bytes
 [verbose] (object begin)
 [verbose] Property: <Name:           no-name., STRING:    onMetaData>
@@ -67,7 +70,7 @@ verbose] RTMP_ClientPacket, received: notify 387 bytes
 [verbose] Property: <Name:              width, NUMBER:    1920.00>
 [verbose] (object end)
 [verbose] (object end)
-
+```
 
 # OBS-Studio setting
 
