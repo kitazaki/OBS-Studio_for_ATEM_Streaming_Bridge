@@ -1,12 +1,15 @@
 # OBS-Studio_for_ATEM_Streaming_Bridge
 
 # change flv-mux.c to connect to ATEM Streaming Bridge
+
 obs-studio/plugins/obs-outputs/flv-mux.c
 
 # Reason
+
 There are some differences between OBS-Studio and ATEM Streaming Bridge at RTMP protocol @setDataFrame().
 
 ## OBS-Studio
+
 verbose] RTMP_ClientPacket, received: notify 387 bytes
 [verbose] (object begin)
 [verbose] Property: <Name:           no-name., STRING:    onMetaData>
@@ -36,6 +39,7 @@ verbose] RTMP_ClientPacket, received: notify 387 bytes
 [verbose] (object end)
 
 ## ATEM Streaming Bridge
+
 [verbose] RTMP_ClientPacket, received: notify 371 bytes
 [verbose] (object begin)
 [verbose] Property: <Name:           no-name., STRING:    onMetaData>
@@ -66,6 +70,7 @@ verbose] RTMP_ClientPacket, received: notify 387 bytes
 
 
 # OBS-Studio setting
+
 Screenshot_1.png
 Screenshot_2.png
 Screenshot_3.png
